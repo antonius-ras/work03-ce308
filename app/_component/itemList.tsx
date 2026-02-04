@@ -1,4 +1,5 @@
-import { View, Text, FlatList } from 'react-native';
+import { FlatList, Text, View } from 'react-native';
+
 type ItemListProps = {
     items: { id: string; title: string; pcs: number }[];
 };
